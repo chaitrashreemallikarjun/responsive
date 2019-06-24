@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pizza Restaurant</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  .container {
+    padding: 30px 5px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+ .bg-1
+{
+   background-image:url("menu.PNG");
+  min-height:500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+  </style>
+</head>
+<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+      <a class="navbar-brand" href="#myPage"><img src="C:\Users\Nandan\Documents\logo.jpg" height="35" width="70"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#team">CHEFF MEMBERS</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#contact">CONTACT&LOCATION</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="C:\Users\Nandan\Documents\pizza02.jpg" alt="New York" width="1500" height="700">
+        <div class="carousel-caption">
+          <h3>Welcome to Pizza Restaurant</h3>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Nandan\Documents\pizza1.jpg" alt="Chicago" width="12500" height="700">
+        <div class="carousel-caption">
+         
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="C:\Users\Nandan\Documents\pizza03.jpg" alt="Los Angeles" width="1500" height="700">
+        <div class="carousel-caption">
+          
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div  style="background-color:#00ccff; height:655px;color:white;">
+<div id="team" class="container text-center">
+<div class="container text-center">
+  <h2>THE CHEFF MEMBERS</h2>
+  <h4><em>Fantasy about pizza</em></h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Franco Pepe</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\pepe.PNG" class="img-thumbnail person" alt="Random Name" width="255" height="180">
+      </a>
+      <div id="demo" class="collapse">
+        <p>His early years found him in the kitchen with his brothers, gathering all the knowledge he would need to become considered one of the top ten pizzaiolos in the world. It is said that Pepe is known for acknowledging the fact that dough is a living organism because it is made of yeast, so he allows it to tell him when it is done proofing. Being that in touch with his craft is what makes him one of the best. His restaurant, Pepe in Grani, is located in Caiazzo northeast of Napoli, Italy.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Gabrielle Bonci</strong></p><br>
+      <a href="#demo1" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\gb.PNG" class="img-thumbnail person" alt="Random Name" width="255" height="280">
+      </a>
+      <div id="demo1" class="collapse">
+        <p>It is said that Bonci pizza by the slice restaurant, Pizzarium, is the most revered in Rome. Considering pizzas history there, that is something to stand out. Known globally as the Michelangelo of Pizza,Chef Bonci also had a young start in the business. He began his training as many chefs did, in his teenage years in restaurants but knew he wanted to be a chef at very early age.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Franco Caffara</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\fc.PNG" class="img-thumbnail person" alt="Random Name" width="255px" height="100px">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Caffara started at the bottom and worked his way up in the industry of pizza baking. He began as a dishwasher and apprentice in an esteemed restaurant while still in school. This beginning allowed him to observe every aspect of pizza baking from start to finish where his love and knowledge of the subject grew.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Chris Bianco</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\cb.PNG" class="img-thumbail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>The only chef known for pizza to win a coveted James Beard Award, Chef Bianco is one of few chefs to stand out from all of the Italian pizza artisans. A Bronx native, he began his career in food young as well. He pursued his passion for pizza following a family vacation to Italy. His restaurant, Pizzeria Bianco has become a Phoenix, Arizona staple.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="menu" class="container-fluid text-center">
+<div class="container text-center">
+  <h2>MENU</h2>
+<nav class="navbar navbar-default">
+  <div class="container-fluid ">
+    <div class="navbar-header">
+      
+      <a class="navbar-brand" href="#">Menu</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#vegpizza">VEGPIZZAS</a></li>
+        <li><a href="#nonveg">NONVEGPIZZAS</a></li>
+        <li><a href="#beverage">BEVERAGES</a></li>y
+        
+      </ul>
+    </div>
+  </div>
+<div class="bg-1">
+</div>
+</nav>
+<div  style="background-color:#cc0000; height:850px; margin-top:5px;  color:white;">
+ <div id="vegpizza" class="container text-center">
+<div class="container text-center">
+  <h3>VEGPIZZAS</h3>
+  <div class="row">
+    <div class="col-sm-3">
+   
+      <a href="#demo4" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Farmhouse.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo4" class="collapse">
+	<h2>Farmhouse</h2>
+        <p>A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo5" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Digital_Veggie_Paradise.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo5" class="collapse">
+	<h2>Veggie Paradise</h2>
+        <p>It contains Goldern Corn, Black Olives, Capsicum & Red Paprika</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo6" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Deluxe_Veggie.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo6" class="collapse">
+	<h2>Delux Veggie</h2>
+        <p>For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+     
+      <a href="#demo7" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Fresh_Veggie.jpg" class="img-thumbail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo7" class="collapse">
+	<h2>Fresh Veggie</h2>
+        <p>It contains Onion I Capsicum</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+	<div class="row">
+    <div class="col-sm-3">
+   
+      <a href="#demo8" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Mexican_Green_Wave.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo8" class="collapse">
+	<h2>Mexican Green Wave</h2>
+        <p>A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo9" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Paneer_Makhni.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo9" class="collapse">
+	<h2>Paneer Makhni</h2>
+        <p>It contains Paneer and Capsicum on Makhani Sauce</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo10" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Peppy_Paneer.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo10" class="collapse">
+	<h2>Peppy Paneer</h2>
+        <p>For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+     
+      <a href="#demo11" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Veg_Extravaganz.jpg" class="img-thumbail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo11" class="collapse">
+	<h2>Veg Extravaganz</h2>
+        <p>A pizza that decidedly staggers under an overload of golden corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div  style="background-color:#cc0000; height:1050px; margin-top:5px;  color:white;">
+<div id="nonveg" class="container text-center">
+<div class="container text-center">
+  <h3>NONVEGPIZZAS</h3>
+  <div class="row">
+    <div class="col-sm-3">
+   
+      <a href="#demo12" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Pepper_Barbeque.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo12" class="collapse">
+	<h2>Pepper Barbeque</h2>
+        <p>APepper Barbecue Chicken I Cheese</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo13" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Chicken_Sausage.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo13" class="collapse">
+	<h2>Chicken Sausage</h2>
+        <p>Chicken Sausage I Cheese</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo14" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Chicken_Golden_Delight.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo14" class="collapse">
+	<h2>Chicken Golden Delight</h2>
+        <p>Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+     
+      <a href="#demo15" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Non-Veg_Supreme.jpg" class="img-thumbail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo15" class="collapse">
+	<h2>Non Veg Supreme</h2>
+        <p>Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers.</p>
+      </div>
+    </div>
+  </div>
+	<div class="row">
+    <div class="col-sm-3">
+   
+      <a href="#demo16" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Dominator.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo16" class="collapse">
+	<h2>Chicken Dominator</h2>
+        <p>Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo17" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\Pepper_Barbeque_&_Onion.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo17" class="collapse">
+	<h2>Pepper Barbeque Onion</h2>
+        <p>It contains Pepper Barbecue Chicken I Onion</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo18" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\chunky-chicken (1).png" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo18" class="collapse">
+	<h2>Chicken Fiesta</h2>
+        <p>Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum.</p>
+      </div>
+    </div>
+     <div class="col-sm-3">
+      
+      <a href="#demo19" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\goldendelight.jpg" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo19" class="collapse">
+	<h2>Chicken Golden Delight</h2>
+        <p>Mmm!Barbeque chicken with a topping of golden corn lodded with extra cheese.Worth its weight in gold.</p>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+<div id="beverage" class="container text-center">
+<div class="container text-center">
+  <h3>BEVERAGES</h3>
+  <div class="row">
+    <div class="col-sm-3">
+   
+      <a href="#demo20" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\bailley1.png" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo20" class="collapse">
+	<h2>Water</h2>
+       
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo21" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\lipton.png" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo21" class="collapse">
+	<h2>Lipton</h2>
+       
+      </div>
+    </div>
+    <div class="col-sm-3">
+      
+      <a href="#demo22" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\pepsi.png" class="img-thumbnail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo22" class="collapse">
+	<h2>Pepsi</h2>
+       
+      </div>
+    </div>
+    <div class="col-sm-3">
+     
+      <a href="#demo23" data-toggle="collapse">
+        <img src="C:\Users\Nandan\Documents\7up.png" class="img-thumbail person" alt="Random Name" width="200" height="200">
+      </a>
+      <div id="demo23" class="collapse">
+	<h2>7up</h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div id="contact" class="container text-center">
+<div class="container text-center">
+  <h2>CONTACT & LOCATION</h2>
+<div class="row"style="background-color:#333;height:500px;color:white;">
+<div class="col-sm-6">
+<h2>Customer Care number</h2>
+<h3><span style="color:green;">1860-210-0000</span></h3>
+<h3>Address:</h3>
+<p>Maharaja Square,No.</p>
+<p>2627/435/2536/4961,Ground Floor,</p>
+<p>Tumkur Main Road,Beside</p>
+<p>Karnataka Bank,Batawadi,Tumakuru,</p>
+<p>Karnataka 572101</p>
+<h3>Timings:</h3>
+<p>11:00am-11:00pm</p>
+</div>
+<div class="col-sm-6" style="margin-top:30px;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.3355843277536!2d77.12747731431946!3d13.329388990621831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02c41c2ff1e01%3A0x873d28f813ee8f19!2sDomino&#39;s+Pizza!5e0!3m2!1sen!2sin!4v1561371817071!5m2!1sen!2sin" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
